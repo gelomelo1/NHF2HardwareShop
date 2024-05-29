@@ -1,0 +1,40 @@
+tesztelek
+teszt1234
+Teszt Elek
+tesztelek@gmail.com
++3623453322
+Budapest
+tesztelo utca 12
+
+c++
+ilovec++
+Nagy Peter
+nagypeter@gmail.com
+06203456785
+Pecs
+Virag utca 20
+
+hardwaremaster
+hardware5432
+Kis Balazs
+kisbalazs@gmail.com
++36203456754
+Debrecen
+Fo utca 2
+
+programmer12
+seniorprogrammer
+Lantos Fanni
+lantosfanni@gmail.com
++36705432187
+Budapest
+Nadfa utca 71
+
+computerexpert
+comp1234
+Jack Daniels
+jacky@gmail.com
++36205439821
+Budapest
+Vereb utca 78
+

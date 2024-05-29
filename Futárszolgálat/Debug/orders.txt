@@ -1,0 +1,13 @@
+tesztelek
+2X#1|3X#3|1X#4
+-
+6X#4
+-
+2X#1
+
+hardwaremaster
+2X#1|3X#3|1X#2
+-
+6X#4
+-
+

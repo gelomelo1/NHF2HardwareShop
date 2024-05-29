@@ -1,0 +1,389 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Inconsistent annotation for 'new': this instance has no annotations. See e:\\homework\\programozás\\nhf2 teszt\\futárszolgálat\\predefined c++ types (compiler internal)(33). The first user-provided annotation on this built-in function is at line d:\\apps\\vs\\main\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime_new.h(48). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Homework/Programozás/NHF2 Teszt/Futárszolgálat/memtrace.h"
+                },
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 8,
+                  "endLine": 206,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??2@YAPAXI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Inconsistent annotation for 'new[]': this instance has no annotations. See e:\\homework\\programozás\\nhf2 teszt\\futárszolgálat\\predefined c++ types (compiler internal)(58). The first user-provided annotation on this built-in function is at line d:\\apps\\vs\\main\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime_new.h(59). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Homework/Programozás/NHF2 Teszt/Futárszolgálat/memtrace.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 8,
+                  "endLine": 207,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??_U@YAPAXI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30146.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x003FD1C0 -il C:\\Users\\gelli\\AppData\\Local\\Temp\\_CL_d9249157ast -typedil -f CentralStorage.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930146 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\CentralStorage.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory E:\\Homework\\Programozás\\NHF2 Teszt\\Futárszolgálat -analyze:rulesetdirectory ;D:\\Apps\\VS\\Main\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Apps\\VS\\Main\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Apps\\VS\\Main\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Apps\\VS\\Main\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Apps\\VS\\Main\\VC\\Auxiliary\\VS\\include -I D:\\Apps\\VS\\Main\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/Homework/Programozás/NHF2 Teszt/Futárszolgálat/memtrace.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "01e953a30f93ee6e32f3c928bc83f9e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/user.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9071d2be1b53096c9fa28c9d451cb40b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/accountsetters.h"
+          },
+          "hashes": {
+            "md5": "0f8085e0990cb9b2d5ae8130ddef7c29"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/setters.h"
+          },
+          "hashes": {
+            "md5": "54f2713311945cd4758f72ed83c5e5e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/filehandler.h"
+          },
+          "hashes": {
+            "md5": "728b2d695b88377fd25e0f98a3fcf152"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/generalfunctions.h"
+          },
+          "hashes": {
+            "md5": "385ade7ca5e0e096364d5dffe29b236c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/user.h"
+          },
+          "hashes": {
+            "md5": "fee10743655f7a8e49d39aa3171aa549"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/hardware.h"
+          },
+          "hashes": {
+            "md5": "621bc39776973c71530f94faec5f4643"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/hardwarestorage.h"
+          },
+          "hashes": {
+            "md5": "5a486f714e05eae2977ff7b331204933"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/centralstorage.h"
+          },
+          "hashes": {
+            "md5": "624cfab96691eb4008a9ffa996e3331a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/ordersperuser.h"
+          },
+          "hashes": {
+            "md5": "5f048c652688ec5edf2c39f7604be782"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/order.h"
+          },
+          "hashes": {
+            "md5": "27722cdded3d94ca98fbb894595cda9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/setters.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f7572951046fea2e41d9b903fd3f2879"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/ordersperuser.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c7b27a23a7073357503f6a47ebe4a6fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/order.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e4217b58df7e066bf06cc2241abba697"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/menusetters.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "cce6d7f63aea40e98649a768acd9a6ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/menusetters.h"
+          },
+          "hashes": {
+            "md5": "bdb3cec07468b08672c18ec1de4cb6bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/menu.h"
+          },
+          "hashes": {
+            "md5": "b4d0e66de2de2f4eea551b01e28faa7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/menuitem.h"
+          },
+          "hashes": {
+            "md5": "d028137f72a8e4dba8b43bc255a284e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/menuitem.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "5662981d4028310b7fec5715be685994"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/menu.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "27d6afcebb94173939fde833c824d37b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/descendantmenuitems.h"
+          },
+          "hashes": {
+            "md5": "e1d78a50b558d0f0c386c5bd760b5830"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Homework/Programozás/NHF2 Teszt/Futárszolgálat/memtrace.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "80b1157687e821d6509987388c0b7aed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8b9940da515ee8215a4e396e2167975b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/hardwarestorage.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d9427e7b8fabe78a2ee9144bcd5a3df5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/hardwaresetters.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f159bd44d01586caabf9d2ae373b24b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/hardwaresetters.h"
+          },
+          "hashes": {
+            "md5": "267c3f50d834d587faa01497a2bb53f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Homework/Programozás/NHF2 Teszt/Futárszolgálat/Hardware.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "161b70bbfaf1548e9e558f45abedf742"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/generalfunctions.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f7b441d95b768e78a448847f836e3d2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/filehandler.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "713819e97f4c789a32c27802520bd6c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/descendantmenuitems.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8f69aabae0ea74ae38bf9916b4f687b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/homework/programozás/nhf2 teszt/futárszolgálat/centralstorage.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "de877ac38d9b35a63a20195a9e04ca12"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+tesztelek
+teszt1234
+Teszt Elek
+tesztelek@gmail.com
++3623453322
+Budapest
+tesztelo utca 12
+
+c++
+ilovec++
+Nagy Peter
+nagypeter@gmail.com
+06203456785
+Pecs
+Virag utca 20
+
+computerexpert
+comp1234
+Jack Daniels
+jacky@gmail.com
++36205439821
+Budapest
+Vereb utca 78
+
+220Volt
+voltage
+Johnnie Walker
+jw@gmail.com
+06704539863
+Pecs
+Ret utca 8
+

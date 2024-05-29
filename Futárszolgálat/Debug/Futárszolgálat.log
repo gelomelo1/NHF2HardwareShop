@@ -1,0 +1,19 @@
+﻿  AccountSetters.cpp
+  CentralStorage.cpp
+  DescendantMenuItems.cpp
+  FileHandler.cpp
+  GeneralFunctions.cpp
+  Hardware.cpp
+  HardwareSetters.cpp
+  HardwareStorage.cpp
+  Menu.cpp
+  MenuItem.cpp
+  MenuSetters.cpp
+  Order.cpp
+  OrdersPerUser.cpp
+  Setters.cpp
+  User.cpp
+  main.cpp
+  test.cpp
+  Generating Code...
+  Futárszolgálat.vcxproj -> C:\Projects\NHF2 Teszt\Futárszolgálat\Debug\Futárszolgálat.exe

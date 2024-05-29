@@ -1,0 +1,4 @@
+E:\Homework\Programozás\NHF2\Futárszolgálat\Debug\Futárszolgálat.exe
+E:\Homework\Programozás\NHF2 Beadas\Futárszolgálat\Debug\Futárszolgálat.exe
+E:\Homework\Programozás\NHF2 Teszt\Futárszolgálat\Debug\Futárszolgálat.exe
+C:\Projects\NHF2 Teszt\Futárszolgálat\Debug\Futárszolgálat.exe

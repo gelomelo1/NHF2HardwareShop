@@ -1,0 +1,104 @@
+Processzor
+#1
+12
+Intel Core i5 1600
+4
+3.6
+LGA 1150
+60
+
+Processzor
+#3
+17
+AMD Ryzen 7 3700
+8
+3.8
+AM4
+80
+
+Videokartya
+#2
+2
+GTX 1660 Ti
+PCIExpress
+2400
+6800
+6
+2
+120
+
+Videokartya
+#9
+4
+Nvidia GTX 1080 Ti
+PCIExpress
+1600
+8000
+12
+2
+200
+
+Memoria
+#5
+5
+TUF Gaming T1
+32
+2X16
+2133
+ddr4
+
+Memoria
+#10
+0
+Corsair
+64
+8X8
+3600
+ddr4
+
+Tapegyseg
+#6
+14
+Thermaltake Gold
+modularis
+700
+90
+passziv
+
+Merevlemez
+#7
+1
+Toshiba T3
+3000
+7200
+3.5
+SATA
+
+SSD
+#4
+5
+Samsung 980
+1000
+TLC
+M.2
+
+Gephaz
+#8
+6
+NZXT S80
+20
+ATX
+5
+4
+3
+
+Alaplap
+#11
+0
+MSI PRO B730
+Intel Socket 1700
+PCIExpress
+ddr4
+4
+ATX
+

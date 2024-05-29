@@ -1,0 +1,179 @@
+Processzor
+#1
+21
+Intel Core i5 1600
+4
+3.6
+LGA 1150
+60
+
+Processzor
+#3
+23
+AMD Ryzen 7 3700
+8
+3.8
+AM4
+80
+
+Processzor
+#12
+2
+Intel Core i9-13900K
+24
+3
+Intel Socket 1700
+125
+
+Videokartya
+#2
+3
+GTX 1660 Ti
+PCIExpress
+2400
+6800
+6
+2
+120
+
+Videokartya
+#9
+2
+Nvidia GTX 1080 Ti
+PCIExpress
+1600
+8000
+12
+2
+200
+
+Videokartya
+#13
+0
+AMD Radeon RX6700
+PCIExpress
+2622
+16000
+12
+2
+260
+
+Memoria
+#5
+0
+TUF Gaming T1
+32
+2X16
+2133
+ddr4
+
+Memoria
+#10
+2
+Corsair
+64
+8X8
+3600
+ddr4
+
+Memoria
+#14
+6
+Kingston Fury
+16
+2X8
+3200
+ddr4
+
+Alaplap
+#11
+0
+MSI PRO B730
+Intel Socket 1700
+PCIExpress
+ddr4
+4
+ATX
+
+Alaplap
+#15
+0
+Gigabyte B650M
+AMD Socket AM5
+PCIExpress
+ddr5
+4
+microATX
+
+Tapegyseg
+#6
+14
+Thermaltake Gold
+modularis
+700
+90
+passziv
+
+Tapegyseg
+#16
+0
+Cooler Master V3
+nem modularis
+600
+80
+aktiv
+
+Merevlemez
+#7
+5
+Toshiba T3
+3000
+7200
+3.5
+SATA
+
+Merevlemez
+#17
+0
+Seagate Barracuda
+2000
+7200
+3.5
+SATA3
+
+SSD
+#4
+18
+Samsung 980
+1000
+TLC
+M.2
+
+SSD
+#18
+0
+Adata Legend 710
+1000
+TLC
+M.2
+
+Gephaz
+#8
+10
+NZXT S80
+20
+ATX
+5
+4
+3
+
+Gephaz
+#19
+6
+DeepCool Matrexx 55
+12
+ATX
+6
+2
+5
+
